@@ -1,0 +1,25 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 2,
+    "editor.snippetSuggestions": "top",
+    "editor.minimap.enabled": false,
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
+    "explorer.decorations.colors": false,
+    "debug.toolBarLocation": "docked",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": false
+    },
+    "window.zoomLevel": -1,
+    "window.openFilesInNewWindow": "on",
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "workbench.editor.enablePreview": true,
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": null,
+    "terminal.integrated.rendererType": "dom",
+    "javascript.updateImportsOnFileMove.enabled": "always"
+}
+
