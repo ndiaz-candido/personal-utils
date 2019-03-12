@@ -1,6 +1,5 @@
-// Place your settings in this file to overwrite the default settings
 {
-    "editor.renderWhitespace": "all",
+    "editor.renderWhitespace": "none",
     "editor.tabSize": 2,
     "editor.snippetSuggestions": "top",
     "editor.minimap.enabled": false,
@@ -10,16 +9,31 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
+    "files.associations": {
+        "*.css": "postcss"
+    },
     "editor.codeActionsOnSave": {
         "source.organizeImports": false
     },
-    "window.zoomLevel": -1,
     "window.openFilesInNewWindow": "on",
     "workbench.editor.enablePreviewFromQuickOpen": true,
-    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreview": false,
     "workbench.sideBar.location": "right",
-    "workbench.iconTheme": null,
     "terminal.integrated.rendererType": "dom",
-    "javascript.updateImportsOnFileMove.enabled": "always"
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.lineHeight": 26,
+    "window.zoomLevel": 0,
+    "workbench.editor.showIcons": false,
+    "breadcrumbs.enabled": true,
+    "workbench.iconTheme": null,
+    "editor.lineNumbers": "off",
+    "workbench.activityBar.visible": false,
+    "bracketPairColorizer.showHorizontalScopeLine": false,
+    "bracketPairColorizer.showVerticalScopeLine": false,
+    "css.lint.float": "error",
+    "css.lint.important": "error",
+    "css.lint.propertyIgnoredDueToDisplay": "error",
+    "css.lint.universalSelector": "error",
+    "cssModules.camelCase": true
 }
-
